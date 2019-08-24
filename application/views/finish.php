@@ -32,7 +32,7 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<<form action="./" method="POST">
 				<span class="contact100-form-title">
 					Finish
 				</span>
@@ -73,12 +73,20 @@
 				<div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn">
-							<span>
-								Finish
-								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-							</span>
-						</button>
+						<div style="display:flex;">
+							<button class="contact100-form-btn" name="finishBack">
+								<span>
+									<i class="fa fa-long-arrow-left " aria-hidden="true"></i>
+									<span class="m-l-7">Back</span>
+								</span>
+							</button>
+							<button class="contact100-form-btn">
+								<span>
+									Finish
+									<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+								</span>
+							</button>
+						</div>
 					</div>
 				</div>
 			</form>
